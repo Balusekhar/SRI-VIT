@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 8vh;
+}
+
+.nav-item .nav-link {
+    font-weight: 700;
+}
+
+.nav-item .nav-link:hover {
+    background-color: green; 
+    border-radius: 4px;
+    color: white !important; 
+}
+
+#services{
+    font-weight: 700;
+}
+
+.cover{
+    height: 80px;
+    width: 80px;
+    background-color: green;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover img{
+    height: 32px;
+}
+
+.card img{
+    width: 100%;
+}
